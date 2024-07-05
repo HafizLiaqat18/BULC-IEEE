@@ -62,7 +62,8 @@ main {
     background-color: #eaeaea;
 }
 
-#contact-us button{
+#contact-us a{
+    text-decoration: none;
     border: none;
     border-radius: 5px;
     font-size: large;
