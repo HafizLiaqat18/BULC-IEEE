@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5em; 
+}
+
+#main-heading {
+    background-color: #eaeaea;
+    padding: 0.75em 3em;
+    font-size: 2em;
+    font-weight: 600;
+    color: #343434;
+}
+
+#main-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 1em 0;
+    padding: 0 3em;
+}
+
+#main-links li {
+    margin: 0.50em 0.06em;
+    list-style: none;
+}
+
+#main-links a {
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: #5767c6;
+    color: whitesmoke;
+    padding: 0.65em 1em;
+    font-size: larger;
+    transition: all 0.2s ease-in-out;
+}
+
+#main-links a:hover {
+    background-color: #3255a2;
+}
+
+#main-section {
+    width: 70%;
+    height: auto;
+    border: 1px solid #294fa2;
+    padding: 0.60em 3em;
+    margin: 1em auto;
+    margin-bottom: 2em;
+    background-color: #eaeaea;
+}
+
+#main-section p {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.85em;
+    line-height: 1.4em;
+}
+
+#main-section #events {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.85em;
+    line-height: 1.4em;
+}
+#benifits{
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+ul #active {
+    background-color: #18256c;
+}
+
+ul #active:hover {
+    background-color: #18256c;
+}
+
+
+@media only screen and (max-width: 739px) {
+#main-section{
+    width: 85%;
+}
+  #main-heading{
+    font-size: 1.8em;
+  }
+  #main-links {
+    justify-content: center;
+  
+}
+#main-links a {
+    font-size: 1em;
+}
+p{
+    font-size: medium;
+}
+h1{
+    font-size: larger;
+}
+h2{
+    font-size: large;
+}
+#benifits{
+    font-size: 1.5em;
+}
+#main-section{
+    padding: 0.60em 1em;
+}
+ol{
+    margin-left: 1em;
+}
+  }
+@media only screen and (max-width: 525px) {
+#main-section{
+    width: 95%;
+}
+  #main-heading{
+    font-size: 1.5em;
+  }
+p{
+    font-size: smaller;
+}
+h1{
+    font-size: large;
+}
+h2{
+    font-size: medium;
+}
+#benifits{
+    font-size: 1em;
+}
+#main-section{
+    padding: 0.60em 1em;
+}
+ol{
+    margin-left: 1em;
+}
+  }
