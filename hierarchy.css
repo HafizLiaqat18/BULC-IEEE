@@ -66,7 +66,7 @@ main {
     border-bottom: 2px solid #3255a2;
 }
 .heading{
- 
+    border:  2px solid #3255a2;
     background-color: #3255a2;
     color: #eaeaea;
     width: 30%;
@@ -79,6 +79,7 @@ main {
 .heading:hover{
     background-color: #eaeaea;
     color: #3255a2;
+    border:  2px solid #3255a2;
 }
 
 #main-hierarchy ,#main-media-hierarchy{
@@ -101,14 +102,15 @@ main {
     
 }
 #main-hierarchy .person img, #main-hierarchy-2 .person img, #main-media-hierarchy .person img ,#media-hierarchy-2 .person img{
-    width: 50%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    object-position: center;
+    object-position:unset;
     border-radius: 50%;
     transition: all 0.300s ease-in-out;
 
 }
-#main-hierarchy .person img:hover ,#main-hierarchy-2.person img:hover,#main-media-hierarchy .person img:hover ,#media-hierarchy-2 .person img:hover{
+#main-hierarchy .person img:hover ,#main-hierarchy-2 .person img:hover,#main-media-hierarchy .person img:hover ,#media-hierarchy-2 .person img:hover{
     transform: scale(1.10);
 }
 
@@ -129,6 +131,13 @@ main {
 }
 
 
+#main-media-hierarchy .person1 img , #main-hierarhy .person4 img{
+    border: 1px solid rgb(2, 163, 2);
+}
+#main-hierarchy .person1 img{
+    object-fit: contain;
+    border: 1px dotted rgb(33, 33, 33);
+}
 @media only screen and (max-width: 904px) {
 
     .heading{
